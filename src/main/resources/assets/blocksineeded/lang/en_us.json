@@ -1,0 +1,13 @@
+{
+  "itemGroup.blocksineeded": "Example Mod Tab",
+  "block.blocksineeded.example_block": "Example Block",
+  "item.blocksineeded.example_item": "Example Item",
+
+  "blocksineeded.configuration.title": "BlocksINeeded Configs",
+  "blocksineeded.configuration.section.blocksineeded.common.toml": "BlocksINeeded Configs",
+  "blocksineeded.configuration.section.blocksineeded.common.toml.title": "BlocksINeeded Configs",
+  "blocksineeded.configuration.items": "Item List",
+  "blocksineeded.configuration.logDirtBlock": "Log Dirt Block",
+  "blocksineeded.configuration.magicNumberIntroduction": "Magic Number Text",
+  "blocksineeded.configuration.magicNumber": "Magic Number"
+}
