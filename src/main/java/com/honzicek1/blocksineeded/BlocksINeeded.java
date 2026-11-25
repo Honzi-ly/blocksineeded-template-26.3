@@ -1,5 +1,8 @@
 package com.honzicek1.blocksineeded;
 
+import com.honzicek1.blocksineeded.block.ModBlocks;
+import com.honzicek1.blocksineeded.creativemodetab.ModCreativeModeTabs;
+import com.honzicek1.blocksineeded.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -45,6 +48,13 @@ public class BlocksINeeded {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
+
+
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (BlocksINeeded) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -63,7 +73,8 @@ public class BlocksINeeded {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == ModCreativeModeTabs.BLOCKSINEEDED_TAB)
+            event.accept(ModBlocks.CRACKED_TUFF_BRICKS);
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
