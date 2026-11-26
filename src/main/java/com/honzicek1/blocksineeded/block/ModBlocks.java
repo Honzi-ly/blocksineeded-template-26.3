@@ -28,6 +28,24 @@ public class ModBlocks {
                     .strength(1.5F, 6.0F)
             ));
 
+    public static final DeferredBlock<Block> TUFF_TILES = registerBlock("tuff_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.TERRACOTTA_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sound(SoundType.TUFF_BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5F, 6.0F)
+            ));
+
+    public static final DeferredBlock<Block> CRACKED_TUFF_TILES = registerBlock("cracked_tuff_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.TERRACOTTA_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sound(SoundType.TUFF_BRICKS)
+                    .requiresCorrectToolForDrops()
+                    .strength(1.5F, 6.0F)
+            ));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

@@ -19,6 +19,7 @@ public class ModModelProvider extends ModelProvider {
 
 
         blockModels.createTrivialCube(ModBlocks.CRACKED_TUFF_BRICKS.get());
+        blockModels.createTrivialCube(ModBlocks.TUFF_TILES.get());
 
     }
 }

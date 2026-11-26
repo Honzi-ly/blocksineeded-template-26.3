@@ -1,4 +1,13 @@
 {
-  "blocksineeded.cracked_tuff_bricks": "Cracked Tuff Bricks",
+  "block.blocksineeded.cracked_tuff_bricks": "Cracked Tuff Bricks",
+  "block.blocksineeded.cracked_tuff_tiles": "Cracked Tuff Tiles",
+  "block.blocksineeded.tuff_tiles": "Tuff Tiles",
+
+
+
+
+
+
+
   "creativemodetab.blocksineeded.blocksineeded": "BlocksINeeded"
 }

@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
 
                         output.accept(ModBlocks.CRACKED_TUFF_BRICKS);
+                        output.accept(ModBlocks.TUFF_TILES);
+                        output.accept(ModBlocks.CRACKED_TUFF_TILES);
 
 
                     }))

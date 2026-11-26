@@ -14,9 +14,6 @@ public class BlocksINeededDataGen {
 
     @SubscribeEvent
     public static void GatherDataRegistryEntries(GatherDataRegistryEntriesEvent event) {
-        event.gatherFor(BlocksINeeded.MODID, Identifier.DEFAULT_NAMESPACE); {
-
-        }
     }
 
 
