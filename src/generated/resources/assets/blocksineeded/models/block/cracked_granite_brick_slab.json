@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "blocksineeded:block/cracked_granite_bricks",
+    "side": "blocksineeded:block/cracked_granite_bricks",
+    "top": "blocksineeded:block/cracked_granite_bricks"
+  }
+}

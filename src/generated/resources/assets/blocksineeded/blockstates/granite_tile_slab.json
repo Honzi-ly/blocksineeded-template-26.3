@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksineeded:block/granite_tile_slab"
+    },
+    "type=double": {
+      "model": "blocksineeded:block/granite_tiles"
+    },
+    "type=top": {
+      "model": "blocksineeded:block/granite_tile_slab_top"
+    }
+  }
+}

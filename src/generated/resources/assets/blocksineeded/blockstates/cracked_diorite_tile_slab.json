@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksineeded:block/cracked_diorite_tile_slab"
+    },
+    "type=double": {
+      "model": "blocksineeded:block/cracked_diorite_tiles"
+    },
+    "type=top": {
+      "model": "blocksineeded:block/cracked_diorite_tile_slab_top"
+    }
+  }
+}

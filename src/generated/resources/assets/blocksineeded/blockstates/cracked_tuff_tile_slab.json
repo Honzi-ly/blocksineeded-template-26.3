@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksineeded:block/cracked_tuff_tile_slab"
+    },
+    "type=double": {
+      "model": "blocksineeded:block/cracked_tuff_tiles"
+    },
+    "type=top": {
+      "model": "blocksineeded:block/cracked_tuff_tile_slab_top"
+    }
+  }
+}
