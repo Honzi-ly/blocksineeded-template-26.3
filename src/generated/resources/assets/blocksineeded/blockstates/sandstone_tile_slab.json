@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocksineeded:block/sandstone_tile_slab"
+    },
+    "type=double": {
+      "model": "blocksineeded:block/sandstone_tiles"
+    },
+    "type=top": {
+      "model": "blocksineeded:block/sandstone_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "blocksineeded:block/cracked_red_sandstone_tiles",
+    "side": "blocksineeded:block/cracked_red_sandstone_tiles",
+    "top": "blocksineeded:block/cracked_red_sandstone_tiles"
+  }
+}
