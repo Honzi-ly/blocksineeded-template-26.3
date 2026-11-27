@@ -1,0 +1,21 @@
+{
+  "values": [
+    "blocksineeded:andesite_brick_wall",
+    "blocksineeded:andesite_tile_wall",
+    "blocksineeded:cracked_andesite_brick_wall",
+    "blocksineeded:cracked_diorite_brick_wall",
+    "blocksineeded:cracked_granite_brick_wall",
+    "blocksineeded:cracked_andesite_tile_wall",
+    "blocksineeded:cracked_diorite_tile_wall",
+    "blocksineeded:cracked_granite_tile_wall",
+    "blocksineeded:cracked_stone_tile_wall",
+    "blocksineeded:cracked_tuff_brick_wall",
+    "blocksineeded:cracked_tuff_tile_wall",
+    "blocksineeded:diorite_brick_wall",
+    "blocksineeded:diorite_tile_wall",
+    "blocksineeded:granite_brick_wall",
+    "blocksineeded:granite_tile_wall",
+    "blocksineeded:stone_tile_wall",
+    "blocksineeded:tuff_tile_wall"
+  ]
+}
