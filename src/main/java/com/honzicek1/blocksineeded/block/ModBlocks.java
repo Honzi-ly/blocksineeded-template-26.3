@@ -19,6 +19,240 @@ public class ModBlocks {
             DeferredRegister.createBlocks(BlocksINeeded.MODID);
 
 
+    public static final DeferredBlock<Block> SANDSTONE_BRICKS = registerBlock("sandstone_bricks",
+            properties -> new Block(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> SANDSTONE_BRICK_STAIRS = registerBlock("sandstone_brick_stairs",
+            properties -> new StairBlock(SANDSTONE_BRICKS.get().defaultBlockState(), properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> SANDSTONE_BRICK_SLAB = registerBlock("sandstone_brick_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> SANDSTONE_BRICK_WALL = registerBlock("sandstone_brick_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_BRICKS = registerBlock("cracked_sandstone_bricks",
+            properties -> new Block(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_SANDSTONE_BRICK_STAIRS = registerBlock("cracked_sandstone_brick_stairs",
+            properties -> new StairBlock(CRACKED_SANDSTONE_BRICKS.get().defaultBlockState(), properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_BRICK_SLAB = registerBlock("cracked_sandstone_brick_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_BRICK_WALL = registerBlock("cracked_sandstone_brick_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> SANDSTONE_TILES = registerBlock("sandstone_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> SANDSTONE_TILE_STAIRS = registerBlock("sandstone_tile_stairs",
+            properties -> new StairBlock(SANDSTONE_TILES.get().defaultBlockState(), properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> SANDSTONE_TILE_SLAB = registerBlock("sandstone_tile_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> SANDSTONE_TILE_WALL = registerBlock("sandstone_tile_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_TILES = registerBlock("cracked_sandstone_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_SANDSTONE_TILE_STAIRS = registerBlock("cracked_sandstone_tile_stairs",
+            properties -> new StairBlock(CRACKED_SANDSTONE_TILES.get().defaultBlockState(), properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_TILE_SLAB = registerBlock("cracked_sandstone_tile_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_TILE_WALL = registerBlock("cracked_sandstone_tile_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.SAND)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+
+    public static final DeferredBlock<Block> RED_SANDSTONE_BRICKS = registerBlock("red_sandstone_bricks",
+            properties -> new Block(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> RED_SANDSTONE_BRICK_STAIRS = registerBlock("red_sandstone_brick_stairs",
+            properties -> new StairBlock(SANDSTONE_BRICKS.get().defaultBlockState(), properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> RED_SANDSTONE_BRICK_SLAB = registerBlock("red_sandstone_brick_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> RED_SANDSTONE_BRICK_WALL = registerBlock("red_sandstone_brick_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_BRICKS = registerBlock("cracked_red_sandstone_bricks",
+            properties -> new Block(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_RED_SANDSTONE_BRICK_STAIRS = registerBlock("cracked_red_sandstone_brick_stairs",
+            properties -> new StairBlock(CRACKED_RED_SANDSTONE_BRICKS.get().defaultBlockState(), properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_BRICK_SLAB = registerBlock("cracked_red_sandstone_brick_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_BRICK_WALL = registerBlock("cracked_red_sandstone_brick_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> RED_SANDSTONE_TILES = registerBlock("red_sandstone_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> RED_SANDSTONE_TILE_STAIRS = registerBlock("red_sandstone_tile_stairs",
+            properties -> new StairBlock(RED_SANDSTONE_TILES.get().defaultBlockState(), properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> RED_SANDSTONE_TILE_SLAB = registerBlock("red_sandstone_tile_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> RED_SANDSTONE_TILE_WALL = registerBlock("red_sandstone_tile_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_TILES = registerBlock("cracked_red_sandstone_tiles",
+            properties -> new Block(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<StairBlock> CRACKED_RED_SANDSTONE_TILE_STAIRS = registerBlock("cracked_red_sandstone_tile_stairs",
+            properties -> new StairBlock(CRACKED_RED_SANDSTONE_TILES.get().defaultBlockState(), properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_TILE_SLAB = registerBlock("cracked_red_sandstone_tile_slab",
+            properties -> new SlabBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_TILE_WALL = registerBlock("cracked_red_sandstone_tile_wall",
+            properties -> new WallBlock(properties
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresCorrectToolForDrops()
+                    .strength(0.8F)
+            ));
+
+
     public static final DeferredBlock<Block> STONE_TILES = registerBlock("stone_tiles",
             properties -> new Block(properties
                     .mapColor(MapColor.STONE)

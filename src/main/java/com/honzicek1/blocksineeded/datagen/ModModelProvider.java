@@ -22,6 +22,48 @@ public class ModModelProvider extends ModelProvider {
 
 
 
+        blockModels.family(ModBlocks.SANDSTONE_BRICKS.get())
+                .stairs(ModBlocks.SANDSTONE_BRICK_STAIRS.get())
+                .slab(ModBlocks.SANDSTONE_BRICK_SLAB.get())
+                .wall(ModBlocks.SANDSTONE_BRICK_WALL.get());
+
+        blockModels.family(ModBlocks.CRACKED_SANDSTONE_BRICKS.get())
+                .stairs(ModBlocks.CRACKED_SANDSTONE_BRICK_STAIRS.get())
+                .slab(ModBlocks.CRACKED_SANDSTONE_BRICK_SLAB.get())
+                .wall(ModBlocks.CRACKED_SANDSTONE_BRICK_WALL.get());
+
+        blockModels.family(ModBlocks.SANDSTONE_TILES.get())
+                .stairs(ModBlocks.SANDSTONE_TILE_STAIRS.get())
+                .slab(ModBlocks.SANDSTONE_TILE_SLAB.get())
+                .wall(ModBlocks.SANDSTONE_TILE_WALL.get());
+
+        blockModels.family(ModBlocks.CRACKED_SANDSTONE_TILES.get())
+                .stairs(ModBlocks.CRACKED_SANDSTONE_TILE_STAIRS.get())
+                .slab(ModBlocks.CRACKED_SANDSTONE_TILE_SLAB.get())
+                .wall(ModBlocks.CRACKED_SANDSTONE_TILE_WALL.get());
+
+
+        blockModels.family(ModBlocks.RED_SANDSTONE_BRICKS.get())
+                .stairs(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.get())
+                .slab(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get())
+                .wall(ModBlocks.RED_SANDSTONE_BRICK_WALL.get());
+
+        blockModels.family(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS.get())
+                .stairs(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_STAIRS.get())
+                .slab(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_SLAB.get())
+                .wall(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_WALL.get());
+
+        blockModels.family(ModBlocks.RED_SANDSTONE_TILES.get())
+                .stairs(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get())
+                .slab(ModBlocks.RED_SANDSTONE_TILE_SLAB.get())
+                .wall(ModBlocks.RED_SANDSTONE_TILE_WALL.get());
+
+        blockModels.family(ModBlocks.CRACKED_RED_SANDSTONE_TILES.get())
+                .stairs(ModBlocks.CRACKED_RED_SANDSTONE_TILE_STAIRS.get())
+                .slab(ModBlocks.CRACKED_RED_SANDSTONE_TILE_SLAB.get())
+                .wall(ModBlocks.CRACKED_RED_SANDSTONE_TILE_WALL.get());
+
+
         blockModels.family(ModBlocks.STONE_TILES.get())
                 .stairs(ModBlocks.STONE_TILE_STAIRS.get())
                 .slab(ModBlocks.STONE_TILE_SLAB.get())

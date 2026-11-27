@@ -21,6 +21,48 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
 
 
+                        output.accept(ModBlocks.SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_WALL);
+
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_BRICK_WALL);
+
+                        output.accept(ModBlocks.SANDSTONE_TILES);
+                        output.accept(ModBlocks.SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.SANDSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.SANDSTONE_TILE_WALL);
+
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_TILE_WALL);
+
+
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_WALL);
+
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICK_WALL);
+
+                        output.accept(ModBlocks.RED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILE_WALL);
+
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_TILE_WALL);
+
+
                         output.accept(ModBlocks.STONE_TILES);
                         output.accept(ModBlocks.STONE_TILE_STAIRS);
                         output.accept(ModBlocks.STONE_TILE_SLAB);
